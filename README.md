@@ -90,7 +90,7 @@ Pluginy do Sieciuchy.txt pozwalają na niestandardowe informacje dla sieciaków/
 Przykładowy plik sieciuchy.txt z pluginami:
 
 ```
-@extends("/superpliki/mojPlugin.grml");
+@extends("/superpliki/mojPlugin.html");
 Allow: Sieciuchy
 Disallow: Sieciaki @mojPlugin("redirect", "https://www.youtube.com/watch?v=dQw4w9WgXcQ")
 ```
