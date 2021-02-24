@@ -101,7 +101,7 @@ Parser pliku sieciuchy.txt powinnen zrequestować plik z podanym pluginem i jeś
 Przykładowy plik z specyfikacją pluginu:
 
 ```html
-<div itemscope itemtype="comingsoon">
+<div itemscope itemtype="https://github.com/ProgramistaZpolski/sieciuchytxt/blob/master/README.md#pluginy">
 	<h1 data-sieciuchy-plugin="pluginName">Sieciuchy.txt redirect plugin</h1>
 	Ut a culpa praesentium non. Temporibus ea tempora eum eum praesentium similique nam veniam. Voluptatibus voluptatibus ipsam consequatur nihil dolorum quidem soluta. Consequatur dolorum aliquid doloribus voluptatem sunt vel ea dolor.
 
