@@ -1,5 +1,7 @@
 # Specyfikacja Sieciuchy.txt
 
+Wersja 1.1
+
 * [Podstawy](#Podstawy)
 * [Pluginy](#Pluginy)
 * [Integracje](#Integracje)
@@ -82,6 +84,29 @@ Dostępne osoby do blokowania/odblokowania to:
 ### Path
 
 Specyfuje on dokładnie jakie materiały są dostępne/niedostępne.
+
+### If
+
+@if jest nową funkcją wprowadzoną w Sieciuchy.txt 1.1
+
+Pozwala ona na wykonywanie określonych działań, pod określonymi warunkami.
+
+Przykład:
+```
+Disallow: Sieciaki
+@if("version == 1.1")
+Allow: NetRobi | /kasztany/*.pdf 
+@endif
+```
+
+### Określanie wersji pliku
+
+Aby korzystać z funkcji wprowadzonych w Sieciuchy.txt 1.1+, musisz określić wersję pliku.
+
+```
+@version("1.1");
+Disallow: Sieciaki
+```
 
 ## Pluginy
 
