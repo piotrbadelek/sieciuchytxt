@@ -85,6 +85,14 @@ Dostępne osoby do blokowania/odblokowania to:
 
 Specyfuje on dokładnie jakie materiały są dostępne/niedostępne.
 
+Od Sieciuchy.txt 1.1, Path obsługuje też wildcardy:
+```
+Allow: NetRobi | /kasztany/*.pdf 
+```
+Określa to że NetRobi może dostać się do wszystkich pdfów w folderze kasztany.
+
+Zalecane jest owinięcie wildcardów w if'y, gdyż w przeciwnym przypadku, parsery zgodne z wersją 1.0 zinterpretują to, że netrobi ma dostęp do pliku o nazwie `*.pdf`
+
 ### If
 
 @if jest nową funkcją wprowadzoną w Sieciuchy.txt 1.1
